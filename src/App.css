@@ -1,0 +1,101 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid rgb(34, 89, 89);
+  width: 100%;
+  border: 1px black;
+  padding-left: 2000px;
+  display: inline-flexbox;
+}
+
+th, td {
+  border: 3px solid rgb(34, 89, 89);
+  text-align: left;
+  display: inline-flexbox;
+  padding: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  align-items: left;
+  max-width: 33px;
+  max-block-size: 10px;
+  text-decoration: solid red;
+
+}
+tr:nth-child(even) {background-color: #d6b80c;}
+
+.stylee {
+  overflow-x: auto;
+}
+.container{
+
+  padding-left: 800px;
+  
+}
+.selctor{
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center; 
+   margin-left: 350px;
+}
+.new{
+  padding-left: 90px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 600px;
+}
+.pagination {
+  display: flex;
+  padding-left: 40px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.page-item{
+ border: 2px solid #172702dd;
+ background-color: rgb(110, 194, 233);
+ padding-left: 35px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-right: 35px;
+
+}
+
+.pagination-link {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.pagination-link.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.pagination-link:hover {
+  background-color: #ccc;
+}
+.backgroundImage{
+  /* background-color: #16d3da; */
+  background-image: url('image/new\ \(2\).jpg');
+  height: 80000px;
+  width: 1690px;
+}
+.heading{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+}
+.heading2{
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+.heading4{
+ text-align: center;
+}
+ 
